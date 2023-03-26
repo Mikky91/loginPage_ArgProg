@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: #22193F;
+    background-image: url(./ondas.svg) ;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.bg {
+    background-image: url(img-login.jpg);
+    background-position: center center;
+}
+
+img {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-120%, -120%);
+  transform: translate(-170%, -120%);
+}
+
+.mb-4 input, a, button {
+  font-size: 16px;
+}
+
+.mb-4 input{
+    padding-right: 2.5rem;
+    border-radius: 15px;
+    font-weight: 400;
+    text-indent: 25px;
+    border-color: #c4c4c4;
+  }
+
+  input::placeholder {
+    text-indent: 25px;
+  }
+
+#is-relative{
+    max-width: 420px;
+    position: relative;
+  }
+
+#icon{
+    position: absolute;
+    display: block;
+    bottom: .4rem;
+    left: 1rem;
+    color: #6A2A83;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  .d-grid {
+    background-color: #E21982;
+    border-radius: 25px;
+  }
+
+  .d-grid button {
+    color: #fff;
+  }
+
+  .link a {
+    color: #E21982;
+  }
